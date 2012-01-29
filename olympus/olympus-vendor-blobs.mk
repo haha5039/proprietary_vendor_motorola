@@ -106,8 +106,6 @@ PRODUCT_COPY_FILES += \
 # system libs
 PRODUCT_COPY_FILES += \
     vendor/motorola/olympus/proprietary/lib/libmirror.so:system/lib/libmirror.so \
-    vendor/motorola/olympus/proprietary/lib/libextdisp.so:system/lib/libextdisp.so \
-    vendor/motorola/olympus/proprietary/lib/libhdmi.so:system/lib/libhdmi.so \
     vendor/motorola/olympus/proprietary/lib/libnvwsi.so:system/lib/libnvwsi.so \
     vendor/motorola/olympus/proprietary/lib/libnvddk_2d_v2.so:system/lib/libnvddk_2d_v2.so \
     vendor/motorola/olympus/proprietary/lib/libnvrm.so:system/lib/libnvrm.so \
@@ -163,14 +161,4 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/olympus/proprietary/lib/libomx_m4vdec_sharedlibrary.so:system/lib/libomx_m4vdec_sharedlibrary.so \
     vendor/motorola/olympus/proprietary/lib/libomx_mp3dec_sharedlibrary.so:system/lib/libomx_mp3dec_sharedlibrary.so \
     vendor/motorola/olympus/proprietary/lib/libomx_sharedlibrary.so:system/lib/libomx_sharedlibrary.so
-
-# HDMI
-PRODUCT_COPY_FILES += \
-    vendor/motorola/olympus/proprietary/framework/com.motorola.android.iextdispservice.jar:system/framework/com.motorola.android.iextdispservice.jar \
-    vendor/motorola/olympus/proprietary/framework/com.motorola.android.imirrorservice.jar:system/framework/com.motorola.android.imirrorservice.jar \
-    vendor/motorola/olympus/proprietary/lib/libmirrorjni.so:system/lib/libmirrorjni.so \
-    vendor/motorola/olympus/proprietary/etc/permissions/com.motorola.android.iextdispservice.xml:system/etc/permissions/com.motorola.android.iextdispservice.xml \
-    vendor/motorola/olympus/proprietary/etc/permissions/com.motorola.android.imirrorservice.xml:system/etc/permissions/com.motorola.android.imirrorservice.xml \
-    vendor/motorola/olympus/proprietary/app/ExtDispService.apk:system/app/ExtDispService.apk \
-    vendor/motorola/olympus/proprietary/app/MirrorService.apk:system/app/MirrorService.apk
 
