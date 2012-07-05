@@ -23,7 +23,6 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/olympus/proprietary/lib/hw/overlay.tegra.so:system/lib/hw/overlay.tegra.so \
     vendor/motorola/olympus/proprietary/lib/hw/sensors.olympus.so:system/lib/hw/sensors.olympus.so \
     vendor/motorola/olympus/proprietary/lib/hw/gps.olympus.so:system/lib/hw/gps.olympus.so \
-    vendor/motorola/olympus/proprietary/lib/hw/lights.tegra.so:system/lib/hw/lights.tegra.so
 
 # EGL
 PRODUCT_COPY_FILES += \
