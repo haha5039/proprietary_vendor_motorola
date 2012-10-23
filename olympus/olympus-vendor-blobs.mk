@@ -147,6 +147,7 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/olympus/proprietary/lib/librds_util.so:system/lib/librds_util.so \
     vendor/motorola/olympus/proprietary/lib/libnmea.so:system/lib/libnmea.so \
     vendor/motorola/olympus/proprietary/lib/libbattd.so:system/lib/libbattd.so \
+    vendor/motorola/olympus/proprietary/lib/liba2dp.so:system/lib/liba2dp.so \
     vendor/motorola/olympus/proprietary/lib/libnvrm_channel.so:system/lib/libnvrm_channel.so
 
 # VIDEO
