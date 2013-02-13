@@ -90,7 +90,7 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/olympus/proprietary/etc/wl/sdio-ag-cdc-11n-mfgtest-roml-seqcmds.bin:system/etc/wl/sdio-ag-cdc-11n-mfgtest-roml-seqcmds.bin \
     vendor/motorola/olympus/proprietary/etc/wl/sdio-ag-cdc-full11n-minioctl-roml-pno-wme-aoe-pktfilter-keepalive.bin:system/etc/wl/sdio-ag-cdc-full11n-minioctl-roml-pno-wme-aoe-pktfilter-keepalive.bin \
     vendor/motorola/olympus/proprietary/etc/wl/sdio-g-cdc-roml-reclaim-wme-apsta-idauth-minioctl.bin:system/etc/wl/sdio-g-cdc-roml-reclaim-wme-apsta-idauth-minioctl.bin \
-    vendor/motorola/olympus/proprietary/etc/BCM4329B1_002.002.023.0757.0780.hcd:system/etc/BCM4329B1_002.002.023.0757.0780.hcd
+    vendor/motorola/olympus/proprietary/etc/firmware/BCM4329B1_002.002.023.0757.0780.hcd:system/etc/firmware/BCM4329B1_002.002.023.0757.0780.hcd
 
 # subsystem configurations
 PRODUCT_COPY_FILES += \
